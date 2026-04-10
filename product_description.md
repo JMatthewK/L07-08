@@ -9,16 +9,11 @@ PaperBeam is a flexible content‑flow engine designed for modern documentation.
 
 ### Core Benefits
 - Smooth text rendering
-- Adaptive column layouts
-- Lightweight performance
+- Web technology
+- Adaptive Columns
+- Editorial Curation
+- User Driven Community
 
-## Feature Table
-| Benefit | Details |
-|---------|---------|
-| Speed | Optimized rendering |
-| Control | Fine‑grained layout options |
-
-## Emojis
 PaperBeam is fast ⚡ elegant 🎨 and reliable 🔒
 
 ## Custom Containers
@@ -30,11 +25,9 @@ PaperBeam integrates seamlessly with VitePress.
 Use the `features:` block in your homepage to highlight strengths.
 :::
 
-## Code Examples
-
-### JavaScript
-```js
-const feature = {
-  name: "Flextext",
-  enabled: true
-};
+### HTML
+```html
+<div class="feature-box">
+  <h2>Flextext Enabled</h2>
+  <p>This is an HTML example block.</p>
+</div>
