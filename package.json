@@ -1,0 +1,25 @@
+{
+  "name": "lab7-8",
+  "version": "1.0.0",
+  "description": "VitePress lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMatthewK/L07-08.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMatthewK/L07-08/issues"
+  },
+  "homepage": "https://github.com/JMatthewK/L07-08#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
