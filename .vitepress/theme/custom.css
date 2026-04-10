@@ -1,0 +1,28 @@
+/* Main action button (green) */
+.VPButton.brand {
+  background-color: #13b38e !important;
+  border-color: #13b38e !important;
+}
+
+/* Default state of the alt button */
+.VPButton.alt {
+  background-color: #cccccc !important; /* light grey */
+  border-color: #cccccc !important;
+  color: #000 !important;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Hover state of the alt button */
+.VPButton.alt:hover {
+  background-color: #ee9bdd !important; /* pink */
+  border-color: #ee9bdd !important;
+  color: white !important;
+}
+
+/* Gradient hero title */
+.VPHero .name {
+  background: linear-gradient(90deg, #13b38e, #ee9bdd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

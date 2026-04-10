@@ -1,85 +1,39 @@
-# Markdown Extension Examples
+---
+title: Reference
+---
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+# Reference Guide 📑
 
-## Syntax Highlighting
+## API Overview
+This page provides reference material for PaperBeam’s internal functions.
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+### Sections
+- Flextext API
+- Layout API
+- Utility functions
 
-**Input**
+## Reference Table
+| API | Purpose |
+|-----|---------|
+| render() | Renders text blocks |
+| sync() | Syncs layout |
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
-
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
+## Emojis
+Reference essentials 📘🔍🧭
 
 ## Custom Containers
-
-**Input**
-
-```md
 ::: info
-This is an info box.
+Reference pages should be concise and factual.
 :::
 
 ::: tip
-This is a tip.
+Use headings to organize API groups clearly.
 :::
 
-::: warning
-This is a warning.
-:::
+## Code Examples
 
-::: danger
-This is a dangerous warning.
-:::
+### JavaScript
+```js
+import { render } from "paperbeam";
 
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+render("#content");
