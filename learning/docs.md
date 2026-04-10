@@ -1,7 +1,7 @@
 ---
 title: Learning Docs
 ---
-<!-- Goes over different headings, lists and tables -->
+<!-- Goes over different headings, lists, emojis and tables -->
 
 
 # Learning Docs 📘

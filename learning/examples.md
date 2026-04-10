@@ -1,25 +1,21 @@
 ---
 title: Learning Examples
 ---
+---
+<!-- Goes over different headings, tables, emojis custom containers, and code snippets  -->
 
 # Examples Showcase 🧪
 
 ## Overview
-This page demonstrates practical examples of how PaperBeam components behave.
-
-### Example List
-- Adaptive columns
-- Responsive text blocks
-- Interactive elements
+This page demonstrates examples of how PaperBeam components behave.
 
 ## Comparison Table
 | Component | Status |
 |----------|--------|
-| Flextext | Stable |
-| BeamGrid | Beta   |
+| pushToServer | Stable |
+| flexText | Stable |
+| autoSort | Beta   |
 
-## Emojis in Action
-Try these features out: 🔧🧠💡
 
 ## Custom Containers
 ::: info
@@ -27,7 +23,7 @@ Examples are updated frequently as new features roll out.
 :::
 
 ::: danger
-Experimental features may break layouts — use with caution.
+Experimental features may break layouts, or servers — use with caution.
 :::
 
 ## Code Snippets
@@ -35,5 +31,5 @@ Experimental features may break layouts — use with caution.
 ### JavaScript
 ```js
 const data = [1, 2, 3];
-const doubled = data.map(n => n * 2);
-console.log(doubled);
+paperBeam.pushToServer(data)
+console.log(paperBeam.data[0]);
